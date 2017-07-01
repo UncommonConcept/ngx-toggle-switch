@@ -10,8 +10,8 @@ const UI_SWITCH_CONTROL_VALUE_ACCESSOR: any = {
 @Component({
   selector: 'ui-switch',
   template: `
-  <span class="switch" 
-  [class.checked]="checked" 
+  <span class="switch"
+  [class.checked]="checked"
   [class.disabled]="disabled"
   [class.switch-large]="size === 'large'"
   [class.switch-medium]="size === 'medium'"
@@ -32,16 +32,16 @@ const UI_SWITCH_CONTROL_VALUE_ACCESSOR: any = {
     box-sizing: content-box;
     overflow: visible;
     padding: 0;
-    margin: 0;            
+    margin: 0;
     cursor: pointer;
     box-shadow: rgb(223, 223, 223) 0 0 0 0 inset;
     transition: 0.3s ease-out all;
     -webkit-transition: 0.3s ease-out all;
-    }        
+    }
 
     small {
     border-radius: 100%;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);          
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
     position: absolute;
     top: 0;
     left: 0;
@@ -148,7 +148,7 @@ export class UiSwitchComponent implements ControlValueAccessor {
   @Input() defaultBgColor: string = '#fff';
   @Input() defaultBoColor: string = '#dfdfdf';
 
-  getColor(flag='') {
+  getColor(flag: string = '') {
     if (flag === 'borderColor') return this.defaultBoColor;
     if (flag === 'switchColor') {
       if (this.reverse) return !this.checked ? this.switchColor : this.switchOffColor || this.switchColor;

@@ -11,7 +11,8 @@
     "tsc": "tsc --rootDir src --outDir dist --declaration",
     "prebuild": "rimraf dist",
     "build": "npm run tsc",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -28,7 +29,7 @@
     "switch",
     "ui"
   ],
-  "dependencies": {},
+  "dependencies": {"rimraf": "^2.5.4"},
   "devDependencies": {
     "@angular/common": "4.2.5",
     "@angular/compiler": "4.2.5",
