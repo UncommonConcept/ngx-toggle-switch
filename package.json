@@ -6,7 +6,7 @@
   "typings": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --port 4000 --config webpack.config.js --inline --progress --profile --colors --watch --display-error-details --display-cached --content-base",
+    "dev": "webpack-dev-server --port 4000 --config webpack.config.js --inline --progress --profile --colors --watch",
     "example": "webpack --config webpack.config.js --inline --progress --profile --colors --display-error-details --display-cached --content-base",
     "tsc": "tsc --rootDir src --outDir dist --declaration",
     "prebuild": "rimraf dist",
