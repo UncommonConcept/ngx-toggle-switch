@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uncommonconcept/ngx-ui-switch.git"
+    "url": "git+https://github.com/uncommonconcept/ngx-toggle-switch.git"
   },
   "author": "webcat12345",
   "license": "MIT",
@@ -51,7 +51,7 @@
     "zone.js": "^0.8.5"
   },
   "bugs": {
-    "url": "https://github.com/webcat12345/ngx-ui-switch/issues"
+    "url": "https://github.com/uncommonconcept/ngx-toggle-switch/issues"
   },
-  "homepage": "https://github.com/webcat12345/ngx-ui-switch#readme"
+  "homepage": "https://github.com/uncommonconcept/ngx-toggle-switch#readme"
 }
