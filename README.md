@@ -19,13 +19,13 @@ Inspired by [switchery](https://github.com/abpetkov/switchery) - in angular4.
 # Installation
 
 ```bash
-npm install ngx-ui-switch --save
+npm install ngx-toggle-switch --save
 ```
 
 # Usage
 
 ```javascript
-import { UiSwitchModule } from 'ngx-ui-switch/src'
+import { UiSwitchModule } from 'ngx-toggle-switch/src'
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -127,7 +127,7 @@ export class AppModule {
 
 > type: *string*
 
-> default: #fff 
+> default: #fff
 
 
 ```html
@@ -138,13 +138,19 @@ export class AppModule {
 
 > type: *string*
 
-> default: #dfdfdf 
+> default: #dfdfdf
 
 
 ```html
 <ui-switch defaultBgColor="black"></ui-switch>
 ```
 
+
+### Toggle text
+
+```html
+<ui-switch labelOn="Yes" labelOff="No"></ui-switch>
+```
 
 # License
 MIT
