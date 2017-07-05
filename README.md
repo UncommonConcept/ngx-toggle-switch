@@ -1,6 +1,6 @@
 # Disclaimer
 
-This switch is derived from (webcat12345/ngx-ui-switch)[https://github.com/webcat12345/ngx-ui-switch], which was itself derived from (yuyang041060120/angular2-ui-switch)[https://github.com/yuyang041060120/angular2-ui-switch], which is a dead repo. This is temporarily published so it can be properly npm installed but I will deprecate and redirect this package once the appropriate fixes & changes have been back PR'd into the common repo. Thanks guys for your amazingly hard work.
+This switch is derived from [webcat12345/ngx-ui-switch](https://github.com/webcat12345/ngx-ui-switch), which was itself derived from [yuyang041060120/angular2-ui-switch](https://github.com/yuyang041060120/angular2-ui-switch), which is a dead repo. This is temporarily published so it can be properly npm installed but I will deprecate and redirect this package once the appropriate fixes & changes have been back PR'd into the common repo. Thanks guys for your amazingly hard work.
 
 # Ngx UI Switch Component
 
