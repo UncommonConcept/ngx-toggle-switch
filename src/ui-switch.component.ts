@@ -23,9 +23,9 @@ const UI_SWITCH_CONTROL_VALUE_ACCESSOR: any = {
   <input type="checkbox" id="enabled" name="enabled" [checked]="checked" style="display: none;" aria-invalid="false">
   <small [style.background]="getColor('switchColor')">
   </small>
-  <span class="switch-text" *ngIf="!!labelOn || !!labelOff">
-    <span class="on">Yes</span>
-    <span class="off">No</span>
+  <span class="switch-text">
+    <span class="on" [innerHtml]="labelOn ? labelOn : 'Yes'"></span>
+    <span class="off" [innerHtml]="labelOff ? labelOff : 'No'"></span>
   </span>
   </span>
   `,
