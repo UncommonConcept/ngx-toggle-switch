@@ -24,8 +24,8 @@ const UI_SWITCH_CONTROL_VALUE_ACCESSOR: any = {
   <small [style.background]="getColor('switchColor')">
   </small>
   <span class="switch-text" *ngIf="!!labelOn || !!labelOff">
-    <span class="on" [innerHtml]="labelOn ? labelOn : 'Yes'"></span>
-    <span class="off" [innerHtml]="labelOff ? labelOff : 'No'"></span>
+    <span class="on" [innerHtml]="labelOn"></span>
+    <span class="off" [innerHtml]="labelOff"></span>
   </span>
   </span>
   `,
