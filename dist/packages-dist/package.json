@@ -1,0 +1,28 @@
+{
+  "name": "ngx-toggle-switch",
+  "version": "2.0.6",
+  "description": "switch button for angular4",
+  "bugs": "https://github.com/uncommonconcept/ngx-toggle-switch/issues",
+  "homepage": "https://github.com/uncommonconcept/ngx-toggle-switch#readme",
+  "repository": "https://github.com/uncommonconcept/ngx-toggle-switch.git",
+  "license": "MIT",
+  "author": "webcat12345",
+  "keywords": [
+    "angular2",
+    "angular4",
+    "ngx",
+    "ng2",
+    "uiswitch",
+    "switch",
+    "ui"
+  ],
+  "main": "./ui-switch.umd.js",
+  "module": "./ui-switch.es5.js",
+  "es2015": "./ui-switch.es2015.js",
+  "typings": "./index.d.ts",
+  "peerDependencies": {
+    "@angular/core": ">=5.0.0 <=6.0.0",
+    "@angular/common": ">=5.0.0 <=6.0.0",
+    "rxjs": "^5.4.0"
+  }
+}
