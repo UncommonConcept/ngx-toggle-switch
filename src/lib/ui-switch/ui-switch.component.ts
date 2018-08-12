@@ -95,7 +95,7 @@ const UI_SWITCH_CONTROL_VALUE_ACCESSOR: any = {
     }
     
     .switch-x-small {
-    width: 25px;
+    width: 23px;
     height: 10px;
     border-radius: 10px;
     }
@@ -137,7 +137,7 @@ const UI_SWITCH_CONTROL_VALUE_ACCESSOR: any = {
     }
     
     .switch-x-small.checked x-small {
-    left: 15px;
+    left: 13px;
     }
 
     .disabled {
