@@ -1,1 +1,0 @@
-{"version":3,"file":"public_api.js","sourceRoot":"","sources":["../../src/lib/public_api.ts"],"names":[],"mappings":";;;;AAAA,oEAAgD;AAChD,8DAA6C","sourcesContent":["export * from './ui-switch/ui-switch.component';\nexport * from './ui-switch/ui-switch.module';\n"]}

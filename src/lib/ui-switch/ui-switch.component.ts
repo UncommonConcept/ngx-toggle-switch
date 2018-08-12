@@ -105,7 +105,7 @@ const UI_SWITCH_CONTROL_VALUE_ACCESSOR: any = {
     height: 20px;
     }
     
-    .switch-x-small x-small {
+    .switch-x-small small {
       width: 10px;
       height: 10px; 
     }
