@@ -17,6 +17,7 @@ const UI_SWITCH_CONTROL_VALUE_ACCESSOR: any = {
     [class.switch-large]="size === 'large'"
     [class.switch-medium]="size === 'medium'"
     [class.switch-small]="size === 'small'"
+    [class.switch-x-small]="size === 'x-small'"
     [class.switch-labeled]="!!labelOn || !!labelOff"
     [style.background-color]="getColor()"
     [style.border-color]="getColor('borderColor')"
@@ -66,6 +67,11 @@ const UI_SWITCH_CONTROL_VALUE_ACCESSOR: any = {
     width: 40px;
     height: 40px;
     }
+    
+    .switch-large small {
+    width: 40px;
+    height: 40px;
+    }
 
     .switch-medium {
     width: 50px;
@@ -87,12 +93,24 @@ const UI_SWITCH_CONTROL_VALUE_ACCESSOR: any = {
     height: 20px;
     border-radius: 20px;
     }
+    
+    .switch-x-small {
+    width: 20px;
+    height: 10px;
+    border-radius: 10px;
+    }
 
     .switch-small small {
     width: 20px;
     height: 20px;
     }
-
+    
+    .switch-x-small small {
+      width: 10px;
+      height: 10px; 
+    }
+    
+    
     .switch-labeled {
       cursor: pointer;
     }
@@ -116,6 +134,10 @@ const UI_SWITCH_CONTROL_VALUE_ACCESSOR: any = {
 
     .switch-small.checked small {
     left: 13px;
+    }
+    
+    .switch-x-small.checked small {
+    left: 10px;
     }
 
     .disabled {
